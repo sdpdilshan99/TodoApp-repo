@@ -55,7 +55,7 @@ A simple to-do application built with Node.js, Express.js, and MongoDB. This app
     ```bash
     npm start
 
-Or, if you are in development mode:
+    Or, if you are in development mode:
 
     ``bash
     npm run dev
