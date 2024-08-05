@@ -44,20 +44,20 @@ A simple to-do application built with Node.js, Express.js, and MongoDB. This app
 
     javascript
     // config.js
-    
-    base
+
+    ```base
     module.exports = {
     dbURI: 'mongodb://localhost:27017/todo-app' // or your MongoDB Atlas connection string
     };
 
 4. **Start the server:**
 
-    bash
+    ```bash
     npm start
 
     Or, if you are in development mode:
 
-    bash
+    ```bash
     npm run dev
 
 ## Usage
