@@ -55,34 +55,33 @@ A simple to-do application built with Node.js, Express.js, and MongoDB. This app
     ```bash
     npm start
 
-    Or, if you are in development mode:
+Or, if you are in development mode:
 
-    ```bash
+    ``bash
     npm run dev
 
 ## Usage
 
 1. **Navigate to the Application**
 
-    Open http://localhost:3000 to access the to-do app.
+    Open http://localhost:8000 to access the to-do app.
 
-2. **Manage Tasks**
-
-    Create: Use the form on the home page to add new tasks.
-    View: See the list of tasks and view details by clicking on individual tasks.
-    Update: Edit tasks from their detail view.
-    Delete: Remove tasks from their detail view or from the list.
+2.  **Manage Tasks**
+    
+    - **Create**: Use the form on the home page to add new tasks.
+    - **View**: See the list of tasks and view details by clicking on individual tasks.
+    - **Update**: Edit tasks from their detail view.
+    - **Delete**: Remove tasks from their detail view or from the list.
 
 ## File Structure
-
-    /models: Mongoose models for MongoDB.
-    /views: EJS templates for rendering HTML pages.
-    /routes: Express routes handling different endpoints.
-    /public: Static assets like CSS, JavaScript files.
-    server.js: Entry point for the application.
+    
+    - **/models**: Mongoose models for MongoDB.
+    - **/views**: EJS templates for rendering HTML pages.
+    - **/routes**: Express routes handling different endpoints.
+    - **/public**: Static assets like CSS, JavaScript files.
+    - **server.js**: Entry point for the application.
 
 ## Contributing
-
     Feel free to fork the repository and submit pull requests. For significant changes, please open an issue first to discuss what you would like to change.
 
 ## License
@@ -90,5 +89,6 @@ A simple to-do application built with Node.js, Express.js, and MongoDB. This app
     This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
+    For questions or feedback, please reach out to 
 
-    For questions or feedback, please reach out to Sdpdilshan99@gmail.com.
+    **Sdpdilshan99@gmail.com**
