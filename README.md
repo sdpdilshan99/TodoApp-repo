@@ -40,10 +40,12 @@ A simple to-do application built with Node.js, Express.js, and MongoDB. This app
 
 3. **Configure MongoDB:**
 
-Update the config.js or .env file with your MongoDB connection string:
+    Update the config.js or .env file with your MongoDB connection string:
 
     javascript
     // config.js
+    
+    base
     module.exports = {
     dbURI: 'mongodb://localhost:27017/todo-app' // or your MongoDB Atlas connection string
     };
@@ -51,10 +53,9 @@ Update the config.js or .env file with your MongoDB connection string:
 4. **Start the server:**
 
     bash
-    Copy code
     npm start
 
-Or, if you are in development mode:
+    Or, if you are in development mode:
 
     bash
     npm run dev
