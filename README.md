@@ -35,6 +35,7 @@ A simple to-do application built with Node.js, Express.js, and MongoDB. This app
 
 2. **Install Dependencies**
 
+    bash
     npm install
 
 3. **Configure MongoDB**
