@@ -1,0 +1,15 @@
+<%- include("partials/header") %>
+<body>
+    <div class="table-container">
+        <h2 class="todo-title">Delete Todo</h2>
+   
+        <div class="confirm">
+            <p>
+                Are you sure you want delete this todo?
+                <a href="/confirm-delete?id=<%= todo._id %>" class="btn yes">Yes</a>
+                <a href="/" class="btn no">No</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
